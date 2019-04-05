@@ -1,0 +1,458 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<!-- CSS -->
+ 	<link rel="stylesheet" type="text/css" href="css/css.css">
+ 	<link rel="stylesheet" type="text/css" href="css/css2.css">
+ 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+ 	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+ 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+ 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+
+ 	<script type="text/javascript" src="js/js.js" defer></script>
+ 	<title></title>
+
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<meta charset="utf-8">
+
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+ <body>
+ 	<div class="menu1">
+ 		<div class="menu_items">
+ 			<div class="listMyProduct" id="basketDock">
+ 				<div class="zapros">
+ 					<span class="textMyProduct">Запрос информации по товарам
+ 						
+ 					</span>
+ 					<i class="fas fa-shopping-cart"></i>
+ 					<span id="basketBadge" class="badge badge-important">0</span>
+ 				</div>
+ 				<div>
+ 					<div id="linkHeaderDesktop"> 
+ 						<div class="boxLinkMenuTopLast">
+ 							<a href="/area-riservata">Личный кабинет</a>
+ 						</div> 
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="boxLinkMenuTopLanguage">RU<span class="ru"></span><a href="javascript:hideShowLanguage();" class="arrowLanguage"><img src="https://www.agriparts.it/agriparts-theme/images/agriparts/language-arrow.png" alt="selezione lingua" title="selezione lingua"></a> 
+ 				<div id="languageBox" class="hide"> 
+ 					<div class="portlet-boundary portlet-boundary_82_ portlet-static portlet-static-end portlet-borderless portlet-language " id="p_p_id_82_">
+ 						<span id="p_82"></span>
+ 						<div class="portlet-borderless-container" style=""> 
+ 							<div class="portlet-body">
+ 								<a href="#" lang="it-IT">IT</a> 
+ 								<a href="#" class="taglib-language-list-text" lang="en-US">EN</a> 
+ 								<a href="#" class="taglib-language-list-text" lang="es-ES">ES</a>
+ 								<a href="#" class="taglib-language-list-text" lang="fr-FR">FR</a>
+ 								<span class="taglib-language-list-text last" lang="ru-RU">RU</span>
+ 							</div> 
+ 						</div> 
+ 					</div> 
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<section class="search_block">
+ 		<div class="row1">
+ 			<div class="span4 bannerDesk"> 
+ 				<a class="logo default-logo" href="#" title="Go to Home (www.agriparts.it)"> 
+ 					<img src="img/logo-agriparts.jpg" alt="logo agriparts">
+ 				</a> 
+ 			</div>
+ 			<div class="col 12 search-box">
+ 				<div class="search">
+ 					<input type="search" name="q" placeholder="Поиск по товару или коду">
+ 					<input type="submit" value="">
+ 				</div>
+ 			</div>
+
+ 		</div>
+ 		<span  class="textSearch">
+ 			<p>Если поиск не дал результатов свяжитесь с нами по тел. + 8777777777 или 
+ 				<a href="#">запросите информацию</a>
+ 			</p>
+ 		</span>
+ 	</section>
+ 	<section>
+ 		<div class="menu">
+ 			<div class="topnav" id="myTopnav">
+		<ul>
+ 				<li><a href="index.html">Категории продукции</a></li>
+ 				<li><a href="index2.html">МУРАГЕР-С</a></li>
+ 				<li><a href="index3.html"> Контакты </a></li>
+ 				<li><a href="#">Регистрация Пользователя</a></li>
+    </ul>
+ 				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+ 					<i class="fa fa-bars"></i>
+ 				</a>
+ 			</div>
+ 		</div>
+ 		<div class="banner_mobile">
+ 			<a class="logo default-logo" href="#" title="Go to Home (www.agriparts.it)"> 
+ 				<img src="img/logo-agriparts-reverse.png" alt="logo agriparts">
+ 			</a>
+ 		</div>
+ 	</section>
+ 	<section class="slider">
+ 		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+ 			<div class="carousel-inner">
+ 				<div class="carousel-item active">
+ 					<img class="d-block w-100" src="img/first.jpg" alt="First slide">
+ 				</div>
+ 				<div class="carousel-item">
+ 					<img class="d-block w-100" src="img/second.jpg" alt="Second slide">
+ 				</div>
+ 				<div class="carousel-item">
+ 					<img class="d-block w-100" src="img/third.jpg" alt="Third slide">
+ 				</div>
+ 				<div class="carousel-item">
+ 					<img class="d-block w-100" src="img/fourth.jpg" alt="Fourth slide">
+ 				</div>
+ 				<div class="carousel-item">
+ 					<img class="d-block w-100" src="img/fifth.jpg" alt="fifth slide">
+ 				</div>
+ 			</div>
+
+ 		</div>
+ 		<div class="slider_text">
+ 			<div class="boxPdfAgriparts">
+ 				<div class="slider_text_inner">
+ 					<h6>
+ 						<strong>МУРАГЕР-С</strong>
+ 					</h6>
+ 					<p>специализируется на продаже взаимозаменяемых запасных частей для применения на зерноуборочных комбайнах, тракторах и уборочных машин.
+ 					</p>
+ 				</div>
+ 				<div class="cellButtonPdfAgriparts"> 
+ 					<div class="buttonPdfAgriparts">
+ 						<div class="PdfCatalogueAgriparts">Скачать презентацию МУРАГЕР-С</div> 
+ 						<div class="imgCatalogueAgriparts">
+ 							<a href="#" target="_blank">
+ 								<img alt="Informations" src="img/pdf.jpg" style="height: 50px;" title="scarica il pdf">
+ 							</a>
+ 						</div>
+ 					</div> 
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</section>
+
+ 	<section class="products">
+ 		<div class="title-box"> 
+ 			<div id="categoryTitle" class="title">Категории продукции
+ 			</div>
+ 			<div id="_CategoryPortlet_WAR_catalogportlet_INSTANCE_8fbLXOCvyZx3_CategoryBCROW" class="row title" style="position:relative;display:none;">
+ 				<div class="span12"> 
+ 					<ol id="_CategoryPortlet_WAR_catalogportlet_INSTANCE_8fbLXOCvyZx3_CategoryBC" class="category-breadcrumb">
+ 					</ol>
+ 				</div> 
+ 			</div>
+ 		</div>
+
+ 		<div class="row2">
+ 			<a href="#"> 
+ 				<div class="category_block">
+ 					<!-- <img src="img/1.png"> -->
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold; font-family:'Ubuntu', sans-serif; display: flex;justify-content: center; align-items: center; font-weight: 700;">РЕДУКТОР &amp; РЕМКОПЛЕКТ &amp; КОМПОНЕНТЫ
+ 					</div>
+
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block2">
+ 					<div class="jm-item-title" style="font-size:15px;font-weight:bold; font-family:'Ubuntu', sans-serif;text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700; ">ЦЕПИ И КОМПОНЕНТЫ</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block3">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold; text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">НОЖ В СБОРЕ И КОМПОНЕНТЫ</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block4">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold; text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">ЗАПЧАСТИ ПРИВОДА  ДЛЯ С/Х КОМБАЙНОВ</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block5">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold;  text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">ЗАПЧАСТИ ДЛЯ ТРАКТОРОВ</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block6">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold;  text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">ПОДАЮЩИЙ АГРЕГАТ / ПРИЁМНАЯ КАМЕРА И МОЛОТИЛЬНЫЙ АППАРАТ</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block7">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold;  text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">ЗАПЧАСТИ ДЛЯ ЖАТОК</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block8">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold;  text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">ЗАПЧАСТИ ДЛЯ КОРМОУБОРОЧНЫХ КОМБАЙНОВ И СЕНОСБОРОЧНЫХ КОМБАЙНОВ</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block9">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold;  text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">ЗАПЧАСТИ ДЛЯ ПОСЕВА И ИРРИГАЦИИ (ОПРЫСКИВАТЕЛИ)</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block10">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold;  text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">ЗАПЧАСТИ ДЛЯ ЖАТКИ И ОБРАБОТКИ СОЛОМЫ</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block11">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold;  text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">ПРИВОДНЫЕ РЕМНИ</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block12">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold;  text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">СОРТИРОВКА И ЧИСТКА</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block13">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold;  text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">ПОДШИПНИКИ, ФЛАНЦЫ, ОПОРЫ (СУППОРТЫ) ИЗ МЕТАЛЛА, ВКЛАДЫШИ, ВТУЛКИ</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block14">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold;  text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">ФИЛЬТРЫ</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block15">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold;  text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">ВИНТЫ, ГАЙКИ, БОЛТЫ, ШАЙБЫ, СТОПОРНЫЕ КОЛЬЦА, ШИПЫ, ШПОНКИ</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block16">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold;  text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">ЗАПЧАСТИ МОТОРА И ПРИВОДАИ</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block17">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold;  text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">ГИДРАВЛИЧЕСКИЙ МАТЕРИАЛ, ТОРМОЗНОЙ МЕХАНИЗМ И ПРОКЛАДКИ</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block18">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold;  text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">ЭЛЕКТРООБОРУДОВАНИЕ, ЭЛЕКТРОННОЕ ОБОРУДОВАНИЕ (КОНДИЦИОНЕР)</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block19">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold;  text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">ДРУГИЕ НЕОРИГИНАЛЬНЫЕ ЗАПЧАСТИ И АКСЕССУАРЫ</div>
+ 				</div>
+ 			</a>
+ 			<a href="#"> 
+ 				<div class="category_block20">
+ 					<div class="jm-item-title" style="font-size:14px;font-weight:bold;  text-align: center; display: flex;justify-content: center; align-items: center; font-weight: 700;">ОРИГИНАЛЬНЫЕ ЗАПЧАСТИ</div>
+ 				</div>
+ 			</a>
+ 		</div>
+ 	</section>
+
+ 	<section class="news">
+ 		<div class="row3">
+ 			<div class="news_img">
+ 				<img src="img/newsevents.jpg">
+ 				<div class="novosti_block">
+ 					<div class="novosti">
+
+ 						<p > 05/12/2018 </p>
+ 						<h4 class="title-list-note">NEWS 1</h4>
+ 					</div>
+
+ 				</div>
+ 				<p class="text-note" style="font-size:16px"> Almaty 2018 </p>
+ 				<div class="novosti_block">
+ 					<div class="novosti">
+
+ 						<p > 05/12/2018 </p>
+ 						<h4 class="title-list-note">NEWS 2</h4>
+ 					</div>
+
+ 				</div>
+ 				<p class="text-note" style="font-size:16px"> Almaty 2018 </p>
+ 				<div class="novosti_block">
+ 					<div class="novosti">
+
+ 						<p > 05/12/2018 </p>
+ 						<h4 class="title-list-note">NEWS 3</h4>
+ 					</div>
+
+ 				</div>
+ 				<p class="text-note" style="font-size:16px"> Almaty 2018 </p>
+ 				<div class="novosti_block">
+ 					<div class="novosti">
+
+ 						<p > 05/12/2018 </p>
+ 						<h4 class="title-list-note">NEWS 4</h4>
+ 					</div>
+
+ 				</div>
+ 				<p class="text-note" style="font-size:16px"> Almaty 2018 </p>
+ 				<div class="novosti_block">
+ 					<div class="novosti">
+
+ 						<p > 05/12/2018 </p>
+ 						<h4 class="title-list-note">NEWS 5</h4>
+ 					</div>
+
+ 				</div>
+ 				<p class="text-note" style="font-size:16px"> Almaty 2018 </p>
+ 			</div>
+ 			<div class="boxInfo">
+ 				<h2 class="titleBoxInfo">Запрос информации</h2>
+ 				<p class="textBoxInfo1" style="color:#ffffff">Запрос информации о нашем товаре</p>
+ 				<a class="boxInfo_underline" href="#">Запрос информации </a>
+ 			</div>
+ 		</div>
+ 	</section>
+ 	<footer class="footer">
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-2">
+
+ 					<div class="title-box"> <h1 class="title">FOLLOW US</h1> </div>
+ 					<p>Следуй МУРАГЕР-С</p> 
+ 					<p>в социальных сетях</p> 
+ 					<div class="social-list">
+ 						<div class="socialStyleFacebook">
+ 							<a href="#" target="_blank"><i class="fab fa-facebook-f"></i>
+ 							</a>
+ 						</div>
+ 						<div class="socialStyleTwitter">
+ 							<a href="#" target="_blank"><i class="fab fa-twitter"></i>
+ 							</a>
+ 						</div> 
+ 						<div class="socialStyleGoogle-plus">
+ 							<a href="https://plus.google.com/101503046515070603333/about" target="_blank">
+ 								<i class="fab fa-google-plus-g"></i></a>
+ 							</div> 
+ 							<div class="socialStyleYoutube">
+ 								<a href="https://www.youtube.com/channel/UC-MPLXfzgqG7jhdgvMIiJxA" target="_blank">
+ 									<i class="fab fa-youtube"></i></a>
+ 								</div> 
+ 							</div>
+ 						</div> 
+
+ 						
+
+ 						<div class="col-7">
+ 							<div class="span12"> 
+ 								<div class="title-box"> 
+ 									<h1 style="text-transform: uppercase;" class="title">Категории продукции</h1> 
+ 								</div> 
+ 							</div>
+ 							<div class="row5">
+ 								<div span4>
+ 									<ul class="productsList">
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">РЕДУКТОР &amp; РЕМКОПЛЕКТ &amp; КОМПОНЕНТЫ</a>
+ 										</li>
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">ЗАПЧАСТИ ПРИВОДА  ДЛЯ С/Х КОМБАЙНОВ</a>
+ 										</li>
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">ЗАПЧАСТИ ДЛЯ ЖАТОК</a>
+ 										</li>
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">ЗАПЧАСТИ ДЛЯ ЖАТКИ И ОБРАБОТКИ СОЛОМЫ</a>
+ 										</li>
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">ПОДШИПНИКИ, ФЛАНЦЫ, ОПОРЫ (СУППОРТЫ) ИЗ МЕТАЛЛА, ВКЛАДЫШИ, ВТУЛКИ</a>
+ 										</li>
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">ЗАПЧАСТИ МОТОРА И ПРИВОДА</a>
+ 										</li>
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">ДРУГИЕ НЕОРИГИНАЛЬНЫЕ ЗАПЧАСТИ И АКСЕССУАРЫ</a>
+ 										</li>
+ 									</ul>
+ 								</div>
+ 								<div span4>
+ 									<ul class="productsList">
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">ЦЕПИ И КОМПОНЕНТЫ</a>
+ 										</li>
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">ЗАПЧАСТИ ДЛЯ ТРАКТОРОВ</a>
+ 										</li>
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">ЗАПЧАСТИ ДЛЯ КОРМОУБОРОЧНЫХ КОМБАЙНОВ И СЕНОСБОРОЧНЫХ КОМБАЙНОВ</a>
+ 										</li>
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">ПРИВОДНЫЕ РЕМНИ</a>
+ 										</li>
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">ФИЛЬТРЫ</a>
+ 										</li>
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">ГИДРАВЛИЧЕСКИЙ МАТЕРИАЛ, ТОРМОЗНОЙ МЕХАНИЗМ И ПРОКЛАДКИ</a>
+ 										</li>
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">ОРИГИНАЛЬНЫЕ ЗАПЧАСТИ</a>
+ 										</li>
+ 									</ul>
+ 								</div>
+ 								<div span4>
+ 									<ul class="productsList">
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">НОЖ В СБОРЕ И КОМПОНЕНТЫ</a>
+ 										</li>
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">ПОДАЮЩИЙ АГРЕГАТ / ПРИЁМНАЯ КАМЕРА И МОЛОТИЛЬНЫЙ АППАРАТ</a>
+ 										</li>
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">ЗАПЧАСТИ ДЛЯ ПОСЕВА И ИРРИГАЦИИ (ОПРЫСКИВАТЕЛИ)</a>
+ 										</li>
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">СОРТИРОВКА И ЧИСТКА</a>
+ 										</li>
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">ВИНТЫ, ГАЙКИ, БОЛТЫ, ШАЙБЫ, СТОПОРНЫЕ КОЛЬЦА, ШИПЫ, ШПОНКИ</a>
+ 										</li>
+ 										<li class="fatherLinkProductList"><a class="LinkproductList reducedFont" href="#" onclick="_CategoryPortlet_WAR_catalogportlet_INSTANCE_AAAA_goToList('1')">ЭЛЕКТРООБОРУДОВАНИЕ, ЭЛЕКТРОННОЕ ОБОРУДОВАНИЕ (КОНДИЦИОНЕР)</a>
+ 										</li>
+ 										
+ 									</ul>
+ 								</div>
+ 							</div>
+ 						</div>
+
+ 						<div class="col-3">
+ 							<div class="container-fluid">
+ 								<div class="row-fluid"> 
+ 									<div class="title-box">
+ 										<h1 class="title">ТОО МУРАГЕР-С</h1>
+
+ 									</div>
+ 									<p class="TextAddressSx">Г.КОСТАНАЙ, УЛИЦА АБАЯ, 2<br>Костанай-Казахстан<br> Tel. +777777777<br> Fax. +777777777</p>
+ 								</div>
+ 							</div>
+ 						</div>
+ 					</div>
+
+ 				</div>
+ 			</footer>
+ 			<section class="boxFooterSocial">
+ 				<div class="container">
+ 					<div class="row">
+ 						<div class="container">
+ 							<div class="row">
+ 								<div class="span8 ragioneSociale">Agri Parts Group - P.IVA 00575831201 - C.F. 02101740371
+ 								</div>
+ 						
+ 							</div>
+ 						</div> 
+ 					</div>
+ 				</div>
+ 			</section>
+ 			<!-- jQuery and Bootstrap-->
+ 		<!-- 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+ 			<script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/fontawesome.min.js"></script>
+ 			<script type="text/javascript" src="js/jquery.js"></script>
+ 			<script type="text/javascript">
+ 				function hideShowLanguage(){
+ 				if(document.getElementById("languageBox").className=="show"){document.getElementById("languageBox").className="hide"}else{document.getElementById("languageBox").className="show"}}function hideShowListProduct(){if(document.getElementById("listOrderMyProduct").className=="listOrderMyProduct"){document.getElementById("listOrderMyProduct").className="hide"}else{document.getElementById("listOrderMyProduct").className="listOrderMyProduct"}};</script>
+
+ 			</body>
+ 			</html>
